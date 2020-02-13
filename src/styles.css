@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ffff;
+    font-family: 'Arvo', serif;
+    width: 40%;
+    min-width: 50px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+html {
+    background-color: burlywood;
+}
+
+h1 {
+    margin-top: 45px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+    font-family: 'Lacquer', sans-serif;
+}
+
+
